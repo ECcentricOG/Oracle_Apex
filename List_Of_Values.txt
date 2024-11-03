@@ -1,0 +1,23 @@
+List of Values : like key Values pairs but named as Display Value and Return Value
+
+Static LOVs
+Based on entered text values.
+Steps to Create:
+Navigate to Shared Components > List of Values > Create.
+Enter name and type as Static, then provide display and return values.
+Save the LOV, which can be used for items like checkboxes, radio groups, and select lists.
+
+Dynamic LOVs
+Based on a SQL query or function body.
+Steps to Create:
+Go to Shared Components > List of Values > Create.
+Enter name and set type as Dynamic.
+Choose data source (e.g., SQL query) and specify the display and return columns.
+Save and link the LOV to page items like select lists, shuttles, or pop-ups.
+
+Cascading LOVs
+One LOV depends on another's selection.
+Steps to Create:
+In Page Designer, create the first select list item with an LOV SQL query.
+For the second item, use a SQL query that references the first item in the WHERE clause.
+Set the Cascading LOV Parent Item to the first item, then save.

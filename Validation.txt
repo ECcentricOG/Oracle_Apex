@@ -1,0 +1,22 @@
+Validations in APEX are checks that ensure data entered by users meets certain conditions before it is saved to the database.
+
+SQL Validation: Uses SQL expressions to validate data.
+PL/SQL Validation: Uses PL/SQL code to implement more complex checks.
+
+Creating a Validation in APEX
+Example: Ensuring Commission is Not More Than 50% of Salary
+
+Scenario: You want to add a validation to make sure the COMMISSION field is not greater than 50% of the employee's SALARY.
+Open Page Designer and go to the form where the validation is required.
+Locate the Item:
+Find the item (e.g., COMMISSION) and right-click on it.
+Select Create Validation.
+Configure the Validation:
+Validation Type: Choose Expression and set Language to SQL.
+Condition: Define the validation rule, for instance:
+:COMMISSION <= 0.5 * :SALARY
+Error Message: Set a custom message, like "Commission cannot exceed 50% of the salary."
+Display Options:
+Set Associated Item to the form field (e.g., COMMISSION) so that the error appears in context.
+Display Location: Choose Inline with Field to show the error next to the item, or Notification to display it at the top of the page.
+

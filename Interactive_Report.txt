@@ -1,0 +1,71 @@
+-------- Interactive Report End User Costomization ------------------
+Search : 
+apply filter on rows for that term in the searched field 
+also search data in specific column by dropdown icon in search button
+placeholder change to column name in search bar
+
+Actions : --
+Columns : User can choose that which columns should be displayed and We can rearrage the order of columns to display in the report
+
+Filter : specify a where condition like salary < 1000 
+    1. Columns Filter : Custom filter on column
+    2. Row Filter : Custom Filter on row
+
+Data : Operation that can be performed on data
+    1. Sort : Sort Columns either in asc or desc order can choose null should be considered like first or last
+    2. Aggregate : Select aggregate function and columns to apply that function.
+    3. Compute : to add a compute column where we can give name to that column and expression to perform like profit = sell - cost
+    4. Flashback : give duration as input then it rollback to state that time ago and display that data at that time.
+
+Format : format report according to data and user's need.
+    1. Control Break : apply a control break on column then it will work like group by function.
+    2. Highlights : it will highlight row or cell and we can also choose highlight color and need to specify a condition.
+    3. Rows per page : No of rows to display per page.
+    
+Chart : To create a chart options are bar, Line with area, Pie, Line need to provide label and value column
+        it provides a toggle between table data and chart based on that data 
+
+Group By : Select a columns based on a report group by and we can aslo specify a function and we can provide a label and format
+
+Pivot : To create a pivot report provide pivot column and row columns and then provide function that calculates values.
+
+Report : 
+        1. Save Report : Provide name and description can also choose to make it public or keep it private.
+        2. Reset : Reset report back to default setting.
+
+Each Columns has 4 options at heading are Sort ASC, Sort DESC, Hide Column, Control Break.
+
+--------------- Interactive Report Developer Costomization ------------------------
+Region : can edit the core of report like data source
+    
+    Filter : at top right can help us to find specific attributes
+
+    Identification: here we can provide name and title to report that can be seen in layout.
+
+    Source : we have to provide Database and type which include SQL query and table or view.
+
+Attributes : it Controls how a report works.
+
+    Apperance : can choose what to diaplay insted as null values.
+
+    Pagination : it disaplay which page are we on in total number of pages and we can choose it's display type and postion on the page.
+
+    Performance : lazy loading interactive report in loaded without the data and the we can choose to max rows to show to end user.
+
+    Message : we can provide message for no data found or more data than found than max rows which is set in performance.
+
+    Search Bar : We can choose to include search bar if enabled then we can chose its attributes like Finder drop down and Reports select list and Rows par page
+
+    Actions Menu : can choose which options to provide to end user in action item tab. and can choose to display action menu or not
+
+    Download : can specify whether use should have downlaod option or not if  yes then only authorized user can download the report or everyone.
+
+    Link : Edit icon at the begining of each row. we can exclude it or choose between below.
+            1. Single Row view : Display that single row in key value pairs.
+            2. Link to Custom Target : Open different page that display info about that row need to provide page number and pass some information to that page.
+
+Printing : like Report that is going to download can change it's attributes like size, font, orientation, text color and more 
+
+Save Report ; have 2 oprtions primary report is like default and alternative report where provide name and it will act like private report there are availale for end users.
+
+

@@ -1,0 +1,14 @@
+Application Items: Act as global variables across the app, maintain session state, and are not displayed on pages.
+Page Items: Interactive elements displayed on specific pages, such as text fields, checkboxes, and select lists.
+
+Creating Application Items Found in Shared Components.
+
+Quick Picks
+Enable users to select predefined values for items with one click. 
+Configure quick picks in the Quick Picks group of the Property Editor, with up to 10 selections allowed.
+
+Syntax for accessing item values varies based on context:
+:MY_ITEM for SQL queries.
+V('MY_ITEM') in PL/SQL for performance.
+NV('MY_NUMERIC_ITEM') for numeric values in PL/SQL.
+&MY_ITEM. for static text (avoid in SQL/PL/SQL to prevent SQL injection).

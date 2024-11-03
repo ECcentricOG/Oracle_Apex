@@ -1,0 +1,9 @@
+Computation : Computations assign values to a single item, either at the page or application level.
+
+Types of Computations:
+Page-level Computations: Defined at the page level, executed on page load or submission, used for specific pages.
+Example: Compute Total Salary by adding salary and commission fields in an employee form.
+
+Application-level Computations: Defined at the application level, used for broader context and typically populate application items.
+Example : display a welcome message with the user's name throughout the application after they log in.
+

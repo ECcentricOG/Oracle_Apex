@@ -1,0 +1,22 @@
+Options in the Interactive Report works same as in Interactive Grid here are some which are not in interactive report.
+------------------ Customize as Develper ----------------------------------------- 
+Edit : if enabled then only enduser can edit the data in the rows provides other options like allow to add, update or delete row or select opertation
+    
+Column Groups : We can assign multiple columns under a single group
+
+Actions item : - it help us to take input from user and then we can run dynamic results based on input value to put that values in source and sql query in it.
+
+Pagination : Types are Page and scroll and show total row count 
+
+Enable Users To : to save public report or not.
+
+------------------- Customizing as End User -------------------------------------
+search is non case sensitive 
+
+End Users can rearrage columns by just drag and drop the columns and can also resize the column width.
+
+Column Header contains Button Toolbar(Control Break, aggregate options, freeze options, Hide Options), Search bar, Set Order buttons, Text Filter, Unique List Values for columns components
+
+More chart options are here as compare to interactive report like donut, bubble, polar, etc.
+
+Refresh : it is in data section help us to update report to most current data. it is better than reload.

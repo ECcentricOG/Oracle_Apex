@@ -1,0 +1,19 @@
+Page processes : units of logic executed at specific points during page rendering or page submission.
+
+Page Processes During Submission
+When the user submits a form, a page process can handle data updates, such as saving to a database.
+Example: Using Automatic Row Processing (DML) to save changes made in a form.
+
+Application Processes
+blocks of PL/SQL logic that can be executed across multiple pages in an application.
+Application processes can be set to run On Load, On Submit, or On Demand (triggered by custom events or conditions).
+
+Example: Creating a Page Process
+To create a page process that initializes page items:
+
+Go to the page in Page Designer.
+Right-click on a process point (e.g., Before Header, After Header) under Rendering or Processing.
+Select Create Process and set Process Type to PL/SQL Code.
+Define your logic. For example, to initialize the SALARY item:
+:SALARY := NULL;
+Save and test the page.

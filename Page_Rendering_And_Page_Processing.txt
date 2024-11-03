@@ -1,0 +1,13 @@
+Show Page Process (Page Rendering): Dynamically renders pages based on the APEX metadata and displays them as HTML.
+Accept Page Process (Page Processing): Handles form submissions by saving data into session state and executing computations, validations, and branching.
+
+Page Rendering (Show Page Process)
+Occurs when a page is requested (e.g., via URL).
+The APEX engine assembles elements like regions, items, and buttons into an HTML viewable page.
+Example: When a user clicks on a customer name in a report, the Customer Details form dialog page opens, invoking Page Rendering.
+
+Page Processing (Accept Page Process)
+Occurs when a page is submitted (e.g., after clicking Apply Changes).
+Data from form fields is saved to session state, and computations, validations, and branching are executed.
+Example: Clicking Apply Changes in the Customer Details form dialog submits the data and triggers Page Processing.
+

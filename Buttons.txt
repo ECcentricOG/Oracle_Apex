@@ -1,0 +1,17 @@
+Button Actions
+Submit Page: Saves or submits data on the current page.
+Redirect to Page: Redirects to a page in the same or a different application.
+Redirect to URL: Navigates to a specified URL.
+Dynamic Action: Executes actions defined in a Dynamic Action, rather than submitting or redirecting.
+
+Setting Button Attributes
+Name and Label: Assign a unique name and display label.
+Layout Position: Choose the position based on the page template.
+Appearance: Choose a button template (Normal or Hot) to define its look.
+Behavior: Set the action (e.g., Submit Page, Redirect to Page, Dynamic Action).
+Server-side Conditions: Specify conditions under which the button is shown (e.g., only display if an item is NULL).
+
+
+In Page Designer, right-click the desired region and select Create Button.
+Alternatively, add buttons from the Gallery by dragging and dropping.
+The Property Editor allows customization of button attributes.

@@ -1,0 +1,8 @@
+Regular expression validations : ensure that data entered by the user matches a specific pattern, such as a valid phone number format.
+
+Row validations Validations : apply conditions to multiple rows in an Interactive Grid to ensure that each row’s data adheres to certain criteria.
+
+Branches : 
+it navigation to other pages or URLs after specific actions, such as page submission or rendering.
+Branches are often used to guide users to different pages based on form submissions or button clicks.
+
