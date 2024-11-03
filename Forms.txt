@@ -1,0 +1,25 @@
+Forms : essential components for data input and submission, enabling users to add, update, or delete records in a database.
+        created as a new page or as a region within an existing page, and they allow developers to control how data is gathered and managed in applications.
+
+Types of Forms : 
+Standard Form: Used to update a single row in a table or SQL query.
+Interactive Grid: Displays data in a customizable report format, allowing users to edit multiple rows directly within the grid.
+Master-Detail Form: Presents related data in a parent-child relationship, with master and detail sections shown either stacked, side-by-side, or via drill-down.
+
+Linking a Report to a Form : 
+To enable data editing directly from a report, you can link an interactive or classic report to a form:
+Open the Report in Page Designer.
+Select the Report Region under the Rendering section.
+In the Property Editor, set Link to Custom Target and define the form page as the target.
+Specify the Item and Value to pass to the form (e.g., P3_ID for the item and ID for the value).
+Save, then run the page to test the link functionality.
+
+Modifying and Customizing Forms :
+Quick Edit:
+Use Quick Edit from the Runtime Developer toolbar to make instant changes to form items, labels, and regions without opening Page Designer.
+
+Changing Item Types:
+In Page Designer, change item types (e.g., converting a text field to a select list) directly from the Property Editor by setting up the List of Values and SQL Query.
+
+Reordering Items:
+Drag and drop items within the Rendering Tree or the central pane to rearrange their display order.

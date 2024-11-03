@@ -1,0 +1,18 @@
+cards page : Oracle APEX displays data as visual blocks, or "cards," resembling index cards.
+Each card represents an item from a data source, like a table, and can show details such as a title, description, icons, images, and badges.
+
+Linking Actions to Cards so that when pressed they navigate to another page
+
+Go to Actions:
+In Page Designer, find the Actions section under the Cards Region.
+
+Create a New Action:
+Right-click on Actions and select Create Action.
+In the Property Editor, set Type to where you want the action (e.g., full card, title, or button).
+
+Set the Target:
+Click Define Link, then set the Target Page (e.g., a product details page).
+Under Set Items, pass relevant information (e.g., Product ID) as a session state variable.
+
+Save and Run:
+Save the page and run it. Now, clicking a card will open a modal dialog or link to another page with more details.

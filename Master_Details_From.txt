@@ -1,0 +1,41 @@
+Master detail : form represents a one-to-many relationship between tables in a database.
+                It displays a master row with multiple related detail rows.
+                In APEX, master detail forms can be created using either the Create Page wizard or the Create Application wizard.
+
+
+Side-by-Side Master Detail : 
+The Side-by-Side Master Detail layout provides a single page with two regions: the master on the left, and the detail on the right.
+Selecting a record on the left updates the details displayed on the right, allowing for seamless navigation without leaving the page.
+
+Steps to Create a Side-by-Side Master Detail
+Create a new application or add a new page to an existing application.
+Select Master Detail and choose Side-by-Side.
+Enter page attributes like table name, display columns, and primary keys.
+Click Add Page to add the new page to the application, and then click Create Application.
+Run the application to see your side-by-side master detail form in action.
+
+
+
+Stacked Master Detail : 
+A Stacked Master Detail provides a single page with two interactive grids stacked vertically.
+Users can select a record in the master grid to automatically update the records in the detail grid below.
+
+Steps to Create a Stacked Master Detail
+Within your application, add a new page and select Master Detail.
+Choose Stacked as the layout style.
+Specify the master table and select the primary key for unique identification.
+Enter the detail table information, ensuring a foreign key relationship is defined between the master and detail tables.
+Click Create Page, save, and run the page to see your stacked layout in action.
+
+
+
+Two-Page Drill Down Master Detail : 
+The Drill Down Master Detail style splits the master and detail views across two pages:
+
+The first page contains an interactive report of the master records.
+The second page allows users to edit a selected record along with its related detail records in an interactive grid.
+Steps to Create a Two-Page Drill Down Master Detail
+From the Create Page wizard, select Master Detail and choose Drill Down.
+Enter the master table and detail table information, along with primary key and foreign key relationships.
+Set navigation order to allow Previous and Next navigation between master records.
+Click Create Page, save, and run to view your drill-down layout.

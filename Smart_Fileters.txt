@@ -1,0 +1,24 @@
+Smart Filters : Oracle APEX provide an efficient way to search and filter large datasets on a page.
+                A Smart Filters page combines a main search field and filter "chips" at the top with a results report at the bottom.
+                
+Unlike Faceted Search, Smart Filters use a compact layout, making them ideal for scenarios where space is limited.
+
+Adding and Customizing Smart Filters
+Add a New Filter:
+Open the Smart Filters page in Page Designer.
+Go to the Search Region, right-click on Filters, and select Create Filter.
+
+Configure the Filter:
+In the Property Editor, define filter attributes:
+    Name: Specify the display name (e.g., “Category”).
+    Type: Choose how users will interact with the filter (e.g., Checkbox Group, Radio Button, Range).
+    Source: Map the filter to a specific column (e.g., CATEGORY column).
+    Data Type: Set to the appropriate type (e.g., VARCHAR2).
+
+Enable Client-Side Filtering:
+For filters with numerous options, enable Client-Side Filtering:
+Click on the filter, navigate to List Entries in the Property Editor.
+Enable Client-Side Filtering to add a search field above the filter list for easier value selection.
+
+Save and Run:
+Save changes, run the page, and test the filter functionality.

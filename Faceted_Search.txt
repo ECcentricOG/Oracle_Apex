@@ -1,0 +1,23 @@
+faceted search : page is a search tool that lets users filter results by selecting multiple categories, or "facets," like price, brand, or color.
+                 This type of search is commonly seen on e-commerce and real estate sites.(left hand side like flipkart)
+                
+enable Batch Facet Changes to delay filtering until users click an "Apply" button. 
+
+Create New Faceted Group : 
+Open Page Designer: Go to the faceted search page where you want to add the new faceted group. Click Edit Page to open Page Designer.
+
+Locate Facets Section: In the Rendering tree, find the Facets section, where existing facets and groups are listed.
+
+Create New Facet Group: Right-click on the Facets section and select Create Facet Group. A new facet group will be created under this section.
+
+Set Group Attributes: Select the new facet group, and in the Property Editor, configure the following attributes:
+
+Label: Enter a name for the facet group (e.g., "Price Range" or "Product Details").
+    Display Settings: Adjust display settings like expanding/collapsing options as needed.
+    Add Facets to Group: Drag existing facets into the new group or create new facets within this group by right-clicking the group and selecting Create Facet.
+
+Save and Run: Click Save and run the page to see your new faceted group, with facets organized under the group label for better organization.
+
+Attributes -> display filter initially provides users a search bar to find filters.
+
+Attributes -> Depending On : Select Facet dependant field like cascade and set type is not null.
